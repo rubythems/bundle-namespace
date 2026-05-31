@@ -1,16 +1,9 @@
-| 📍 NOTE                                                                                                                                                     |
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| RubyGems.org was [recently compromised][draper-security] in a [hostile takeover][draper-takeover] about which [many lies][draper-lies] have been told.      |
-| I'm in the process of adding warnings to some important gems because I [don't condone the theft][draper-theft] of the bundler and rubygems-update projects. |
-| Once publishing to [gem.coop][gem-coop] is available I will stop publishing to RubyGems.org.                                                                |
-| Please see [here][gem-coop] and [here][martin-ann] for more info on what comes next.                                                                        |
-
-[draper-security]: https://joel.drapper.me/p/ruby-central-security-measures/
-[draper-takeover]: https://joel.drapper.me/p/ruby-central-takeover/
-[draper-lies]: https://joel.drapper.me/p/ruby-central-fact-check/
-[draper-theft]: https://joel.drapper.me/p/ruby-central/
-[gem-coop]: https://gem.coop
-[martin-ann]: https://martinemde.com/2025/10/05/announcing-gem-coop.html
+> **Retired experiment:** `bundle-namespace` was a Bundler-plugin prototype for
+> namespace-aware gem resolution. That experiment helped shape the
+> `gemserver-purl` runtime and related preset gems, including
+> `gemserver-gem_coop` and `gemserver-gems_bridgetownrb_com`. New work should
+> use those gems instead; this project remains as historical context for the
+> original investigation.
 
 [![Galtzo FLOSS Logo by Aboling0, CC BY-SA 4.0][🖼️galtzo-i]][🖼️galtzo-discord] [![ruby-lang Logo, Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5][🖼️ruby-lang-i]][🖼️ruby-lang]
 
